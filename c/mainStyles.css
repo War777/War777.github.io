@@ -11,18 +11,26 @@
 	background: rgba(0, 0, 0, 0.1);
 }
 
+html, body{
+	background-color: #00235D;
+	color: #ffffff;
+}
+
+.footer{
+	z-index:100;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+p{
+	color: #ffffff;
+}
+
+
+
 @media screen and (min-width: 1200px) {
 	.screen{background-color: #ff0000;}
-
-	.container{
-		border-radius:5px;
-		/*background-color:#FFF;*/
-		width:980px;
-		margin:0 auto 0 auto;
-		margin-top:10px;
-		padding-bottom:30px;
-		margin-bottom:20px;
-	}
 }
 
 @media screen and (max-width: 1200px) {
