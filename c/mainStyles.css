@@ -1,0 +1,42 @@
+/*
+| Hoja de Estilos, independientes de Bootstrap o Bootstrap-theme
+*/
+
+.screen{
+	height: 10px;
+	width: 10px;
+}
+
+.bg{
+	background: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 1200px) {
+	.screen{background-color: #ff0000;}
+
+	.container{
+		border-radius:5px;
+		/*background-color:#FFF;*/
+		width:980px;
+		margin:0 auto 0 auto;
+		margin-top:10px;
+		padding-bottom:30px;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.screen{background-color: #ffff00;}
+}
+
+@media screen and (max-width: 980px) {
+	.screen{background-color: #00ff00;}
+}
+
+@media screen and (max-width: 650px) {
+	.screen{background-color: #0000ff;}
+}
+
+@media screen and (max-width: 480px) {
+	.screen{background-color: #ff00ff;}
+}
