@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Oscar Resendiz</title>
+    <title>Oscar Mendoza</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive Resume Template">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico"> 
+    <link rel="shortcut icon" href="c.png"> 
     
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
@@ -24,13 +24,13 @@
 
 <body>	
 		
-	<nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top" style="background-color:#006374;">
+	<nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top" style="background-color:#006374;" >
 		
 		<div class="container">
 			
-			<a class="navbar-brand" href="#">
+			<!-- <a class="navbar-brand" href="#"> -->
 				<img src="assets/images/c.png" height="33" width="25"  alt="">
-			</a>
+			<!-- </a> -->
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -39,13 +39,13 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item ml-4">
-						<a class="nav-link" href="#">Perfil <span class="sr-only">(current)</span></a>
+						<a class="nav-link scroll" target="#scroll-profile">Perfil</span></a>
 					</li>
 					<li class="nav-item  ml-4">
-						<a class="nav-link" href="#">Resumen</a>
+						<a class="nav-link scroll" target="#scroll-resume">Resumen</a>
 					</li>
 					<li class="nav-item  ml-4">
-						<a class="nav-link" href="#">Portafolio</a>
+						<a class="nav-link scroll" target="#scroll-portfolio">Portafolio</a>
 					</li>
 					
 				</ul>
@@ -85,7 +85,7 @@
 	</div> -->
 
 
-    <article class="resume-wrapper text-center position-relative">
+    <article class="resume-wrapper text-center position-relative" id="scroll-profile">
 
 	    <div class="container mx-auto text-left bg-white shadow-lg">
 		    <br>
@@ -98,7 +98,7 @@
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    
 					    <div class="primary-info">
-						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Oscar Resendiz</h1>
+						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Oscar Mendoza</h1>
 						    <div class="title mb-3">Full Stack Developer</div>
 						    <ul class="list-unstyled">
 							    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>oscarResendizUaq@gmail.com</a></li>
@@ -126,11 +126,15 @@
 		    </header>
 
 
-		    <div class="resume-body p-5">
+		    <div class="resume-body p-5" >
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Perfil</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-0">Entusiasta Desarrollador de Software Full Stack con 5 años de experiencia, con gran motivación de construir herramientas que ayuden a resolver problemas a través del análisis de datos</p>
+					    <p class="mb-0" id="scroll-resume">
+					    	Entusiasta Desarrollador de Software Full Stack con 5 años de experiencia, con gran motivaci&oacute;n de construir herramientas que ayuden a resolver problemas a través del análisis de datos.
+							<br>
+							Autodidacta, siempre abierto a trabajar con nuevas tecnologias, a aprender con los mejores.
+					    </p>
 				    </div>
 			    </section><!--//summary-section-->
 			    <div class="row">
@@ -190,7 +194,7 @@
 											<ul>
 											    <li>Generación de los primeros ingresos del departamento por $84K al trabajar con Kellogg como primer cliente externo.</li>
 											    <li>Creación de un Pronóstico de Ventas con una adherencia de 85% para los clientes claves de Kellogg  ahorrando tiempo de procesamiento de 3 días a 20 minutos.</li>
-											    <li>Asesor estudiantil en materias de Algoritmos, Programación Orientada a Objetos y Desarrollo Web atendiendo aproximadamente 100 Alumnos por Semestre asi como profesor de Semestre Cero en 'Introducci&oacute;n a la programaci&oacute;n'</li>
+											    <li>Asesor estudiantil en materias de Algoritmos, Programaci&oacute;n Orientada a Objetos y Desarrollo Web atendiendo aproximadamente 100 alumnos por semestre asi como profesor de Semestre Cero en 'Introducci&oacute;n a la programaci&oacute;n'</li>
 											    <li>Colaborador como Back-end Developer en la plataforma 'Cyber Tutor' para disminuir el abandono escolar por parte de alumnos.</li>
 										    </ul>
 
@@ -399,7 +403,7 @@
 					    </section><!--//interests-section-->
 					    
 					    <section class="resume-section language-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Idiomas</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"  id="scroll-portfolio">Idiomas</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled resume-lang-list">
 								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Ingles</span> <small class="text-muted font-weight-normal">(Intermedio)</small></li>
@@ -435,7 +439,10 @@
 								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">ViPro Server</a>
 						</li>
 						<li class="nav-item">
-								<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Kellogg Customer Driven Forecast</a>
+								<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Kellogg's Cost To Serve</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" id="other-tab" data-toggle="tab" href="#other" role="tab" aria-controls="other" aria-selected="false">Otras aplicaciones</a>
 						</li>
 					</ul>
 
@@ -456,43 +463,72 @@
 							
 							<br>
 							<br>
-							<legend>Reto</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nam, ratione, quidem ex facere harum? Labore esse placeat perferendis voluptatibus debitis dolor. Quia cupiditate cumque tempora minima. Ullam deserunt, tempore.</p>
+							
+							<p>En Kellogg Company, en conjunto con el departamento de Customer Service del área logística, se identificaron causas raíces que afectaban el Fill Rate, siendo las entregas tardías (‘Late Deliveries’, Cada entrega tardía afectaba en la facturación por $500K promedio) una razón de impacto.</p>
 
-							<legend>Decisiones</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facilis?</p>
+							<p>Se trazó un plan de acción para trabajar con los proveedores de transporte para llevar métricas compartidas con el departamento de logística (KPIs Bilaterales) que permitieran medir el desempeño con la finalidad de entregar incentivos a los transportistas con mejoría y reducción en sus entregas tardías.</p>
 
-							<legend>Logros</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo totam magnam consequuntur quibusdam vel quos consequatur hic. Architecto quidem ipsum incidunt, fugit quod consequuntur quibusdam, ab iure in numquam modi.</p>
+							<p>Se logró reducir el número de entregas tardías en 30%  así mismo la evaluación permitió desarrollar un programa de premiación semestral el cual alentaba a los proveedores a seguir mejorando sus procesos.</p>
+							
+							<p>Se desarrolló una aplicaci&oacute;n de escritorio que permitía el flujo de información entre ambos lados, compañía y proveedor la cual eliminaba el proceso de cálculos manuales por parte de los ejecutivos del departamento de ‘customer service’ permitiéndoles centrarse en la toma de decisiones.</p>
 
 							<legend>Evidencias</legend>
+							<hr>
 
 							<div class="ml-5 mr5">
 								
 								<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
 						
 									<div class="carousel-inner">
+										
 										<div class="carousel-item active">
-											<img class="d-block w-100" src="assets/images/kpis/1start.jpg" alt="First slide">
-											<!-- <div class="carousel-caption d-none d-md-block">
-												<h5 class="text-dark">Es bien</h5>
-												<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora animi ab saepe id suscipit nihil pariatur repellendus debitis facere dicta aliquam quidem unde, voluptatibus quae, laborum a nisi assumenda nostrum!</p>
-											</div> -->
+											<img class="d-block w-100" src="assets/images/kpis/kpi1.jpg" alt="First slide">
 										</div>
+
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/images/kpis/2openfile.jpg" alt="Second slide">
-											<div class="carousel-caption d-none d-md-block">
-												<h5>Aren</h5>
-												<p>Aren Guiva Fak</p>
-											</div>
+											<img class="d-block w-100" src="assets/images/kpis/kpi2.jpg" alt="First slide">
 										</div>
+
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/images/kpis/3filesopen.jpg" alt="Third slide">
-											<div class="carousel-caption d-none d-md-block">
-												<h5>Es bien</h5>
-												<p>Esto tambien es bien a la verga</p>
-											</div>
+											<img class="d-block w-100" src="assets/images/kpis/kpi3.jpg" alt="First slide">
 										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi4.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi5.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi6.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi7.jpg" alt="First slide">
+										</div>
+										
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi8.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi9.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi10.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi11.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/kpis/kpi12.jpg" alt="First slide">
+										</div>
+
 									</div>
 									
 									
@@ -518,7 +554,7 @@
 							<br>
 							
 							<h3>
-								Gestor de comerciantes
+								Vi-Pro Server
 							</h3>
 							
 							<span class="badge badge-secondary">Php</span>
@@ -531,39 +567,75 @@
 							<span class="badge badge-secondary">jQuery</span>
 							<br>
 							<br>
-							<legend>Reto</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nam, ratione, quidem ex facere harum? Labore esse placeat perferendis voluptatibus debitis dolor. Quia cupiditate cumque tempora minima. Ullam deserunt, tempore.</p>
+							
+							<p>Dentro de la Delegación de Villa Progreso en el H. Ayuntamiento de Ezequiel Montes, Qro., se notaba la falta de sistemas de información para la gestión de diferentes servicios (reportes de alumbrado público, bacheo de calles, gestión de comerciantes) por lo cual se tomó la decisión de implementar un portal web que eliminara el proceso manual.</p>
 
-							<legend>Decisiones</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facilis?</p>
+							<p>Se llevó a cabo el levantamiento de requerimientos que involucro al equipo administrativo y así mismo se entrenó al personal para manipular la plataforma que permitiera tener una visibilidad del estatus de los procesos, el tiempo que tomaban en realizarse y enfocarse en estrategias que ayudaran a mejorar el tiempo de respuesta entre departamentos.</p>
 
-							<legend>Logros</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo totam magnam consequuntur quibusdam vel quos consequatur hic. Architecto quidem ipsum incidunt, fugit quod consequuntur quibusdam, ab iure in numquam modi.</p>
+							<p>Se logró mejorar la estrategia de comunicación y acción y reducir el tiempo de solución por parte del departamento de servicios municipales.</p>
+						
+							<p>Se generó una plataforma de consulta hacia la ciudadanía que daba transparencia en la recaudación de recursos y status de procesos.</p>	
 
+							<p>Se liberó al personal de trabajo repetitivo y manual para que pudieran centrarse en estrategias de mejora continua.</p>
+							
+							<p>
+								<b>Generamos nuestra navaja Suiza para los procesos internos.</b>
+							</p>
+							
 							<legend>Evidencias</legend>
-
+							<hr>
 							<div class="ml-5 mr5">
 								
 								<div id="carouselVipro" class="carousel slide carousel-fade" data-ride="carousel">
 						
 									<div class="carousel-inner">
+										
 										<div class="carousel-item active">
-											<img class="d-block w-100" src="assets/images/vipro/1login.jpg" alt="First slide">
+											<img class="d-block w-100" src="assets/images/vipro/1.jpg" alt="First slide">
 										</div>
+
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/images/vipro/2Aincomeresume.jpg" alt="Second slide">
-											<div class="carousel-caption d-none d-md-block">
-												<h5>Aren</h5>
-												<p>Aren Guiva Fak</p>
-											</div>
+											<img class="d-block w-100" src="assets/images/vipro/2.jpg" alt="First slide">
 										</div>
+
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/images/vipro/2home.jpg" alt="Third slide">
-											<div class="carousel-caption d-none d-md-block">
-												<h5>Es bien</h5>
-												<p>Esto tambien es bien a la verga</p>
-											</div>
+											<img class="d-block w-100" src="assets/images/vipro/3.jpg" alt="First slide">
 										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/4.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/5.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/6.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/7.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/8.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/9.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/10.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/vipro/11.jpg" alt="First slide">
+										</div>
+
+
+										
 									</div>
 									
 									
@@ -584,63 +656,153 @@
 
 
 						<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+							
 							<br>
 							
 							<h3>
-								Gestor de comerciantes
+								Kellogg's - Cost To Serve
+							</h3>
+							
+							<span class="badge badge-secondary">Php</span>
+							<span class="badge badge-secondary">Laravel</span>
+							<span class="badge badge-secondary">Ubuntu Server</span>
+							<span class="badge badge-secondary">Mysql</span>
+							<span class="badge badge-secondary">Apache</span>
+							<span class="badge badge-secondary">Github</span>
+							<span class="badge badge-secondary">jQuery</span>
+							<br>
+							<br>
+							
+							<p>En Kellogg Company, surge  la necesidad de crear un modelo de negocio que busca maximizar la utilidad de principio a fin de la cadena de valor a través de la segmentación de costos bajo una perspectiva de mercado.</p>
+
+							<p>Por ello se decidió crear una herramienta que ayude identificar la forma en que los costos generados a todo nivel posible (Marca, Producto, Cliente, Cuenta, etc.), para poder determinar decisiones que permitieran tomar acciones en la mejora de los procesos.</p>
+
+							<p>Se logró mejorar el gasto general del departamento de Logística siendo el modelo un ejemplo de los resultados que se logran al tener un trabajo coordinado entre las áreas y jefaturas.</p>
+
+							<legend>Evidencias</legend>
+							<hr>
+
+							<div class="ml-5 mr5">
+								
+								<div id="carouselCts" class="carousel slide carousel-fade" data-ride="carousel">
+						
+									<div class="carousel-inner">
+										
+										<div class="carousel-item active">
+											<img class="d-block w-100" src="assets/images/cts/cts1.jpg" alt="First slide">
+										</div>
+										
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts2.jpg" alt="First slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts3.jpg" alt="First slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts4.jpg" alt="First slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts5.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts5A.jpg" alt="First slide">
+										</div>
+
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts6.jpg" alt="First slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts7.jpg" alt="First slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts8.jpg" alt="First slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/images/cts/cts9.jpg" alt="First slide">
+										</div>
+										
+										
+									</div>
+									
+									<a class="carousel-control-prev" href="#carouselCts" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									
+									<a class="carousel-control-next" href="#carouselCts" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+							<br>
+							
+							<h3>
+								Otras Aplicaciones
 							</h3>
 							
 							<span class="badge badge-secondary">Php</span>
 							<span class="badge badge-secondary">Laravel</span>
 							<span class="badge badge-secondary">Ubuntu Server</span>
 							<span class="badge badge-secondary">DigitalOcean</span>
-							<span class="badge badge-secondary">MariaDB</span>
+							<span class="badge badge-secondary">MySql</span>
 							<span class="badge badge-secondary">Apache</span>
 							<span class="badge badge-secondary">Github</span>
 							<span class="badge badge-secondary">jQuery</span>
 							<br>
 							<br>
-							<legend>Reto</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nam, ratione, quidem ex facere harum? Labore esse placeat perferendis voluptatibus debitis dolor. Quia cupiditate cumque tempora minima. Ullam deserunt, tempore.</p>
+							
+							<p>Como Full Stack Developer, me encuentro siempre buscando la mejor forma de mejorar los procesos, buscando ahorrar tiempo, esfuerzo y dinero para las compañías.</p>
 
-							<legend>Decisiones</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facilis?</p>
+							<p>
+								Considero que todo el mundo debería entender conceptos básicos de programación, como armar un cubo Rubik que dicho cubo, a su vez armara un cubo Rubik más grande aun, para mí, es el nuevo ajedrez.
+							</p>
 
-							<legend>Logros</legend>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo totam magnam consequuntur quibusdam vel quos consequatur hic. Architecto quidem ipsum incidunt, fugit quod consequuntur quibusdam, ab iure in numquam modi.</p>
+							<p>
+								Siempre entusiasmado por aprender de los mejores y las más recientes tecnologías, me encuentro buscando integrarme a un equipo competitivo que me ayude y me motive a siempre buscar más, aprender más, desarrollarme más.
+							</p>
+
+							<p>
+								Actualmente desarroll&aacute;ndome en JavaScript (Node.js, React,js, Express.js) y Python (Django, Django Rest Framework) y a donde la industria lo demande. Los buenos futbolistas corren detr&aacute;s del bal&oacute;n pero los mejores corren hacia donde caer&aacute;.
+							</p>
+
+							<p>
+								Es por ello que me considero un candidato fuerte para tu organización.
+								<b>Sigamos en contacto. :) </b>
+							</p>
 
 							<legend>Evidencias</legend>
+							<hr>
 
 							<div class="ml-5 mr5">
 								
-								<div id="carouselVipro" class="carousel slide carousel-fade" data-ride="carousel">
+								<div id="carouselOther" class="carousel slide carousel-fade" data-ride="carousel">
 						
 									<div class="carousel-inner">
+										
 										<div class="carousel-item active">
-											<img class="d-block w-100" src="assets/images/vipro/1login.jpg" alt="First slide">
+											<img class="d-block w-100" src="assets/images/other/df1.jpg" alt="First slide">
 										</div>
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/images/vipro/2Aincomeresume.jpg" alt="Second slide">
-											<div class="carousel-caption d-none d-md-block">
-												<h5>Aren</h5>
-												<p>Aren Guiva Fak</p>
-											</div>
+											<img class="d-block w-100" src="assets/images/other/kvc1.jpg" alt="First slide">
 										</div>
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/images/vipro/2home.jpg" alt="Third slide">
-											<div class="carousel-caption d-none d-md-block">
-												<h5>Es bien</h5>
-												<p>Esto tambien es bien a la verga</p>
-											</div>
+											<img class="d-block w-100" src="assets/images/other/inv1.jpg" alt="First slide">
 										</div>
+										
 									</div>
 									
-									<a class="carousel-control-prev" href="#carouselVipro" role="button" data-slide="prev">
+									<a class="carousel-control-prev" href="#carouselOther" role="button" data-slide="prev">
 										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
 									
-									<a class="carousel-control-next" href="#carouselVipro" role="button" data-slide="next">
+									<a class="carousel-control-next" href="#carouselOther" role="button" data-slide="next">
 										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
@@ -682,6 +844,30 @@
 </body>
 </html> 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		function scrollToAnchor(target){
+			
+			var tag = $(target);
+
+			$('html, body').animate({
+				scrollTop: tag.offset().top
+			}, 'slow');
+
+		}
+
+		$(".scroll").click(function() {
+			var tag = $(this).attr('target');
+			scrollToAnchor(tag);
+		});
+
+	});
+	
+</script>
